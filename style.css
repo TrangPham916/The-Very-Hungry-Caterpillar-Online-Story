@@ -10,7 +10,7 @@
             margin: 0;
             display: flex;
             min-height: 100dvh;
-            /* perspective: 1000px; */
+            perspective: 1000px;
             font: 1em/1.4 "Poppins", sans-serif;
             overflow: hidden;
             color: hsl(180 68% 5%);
@@ -21,7 +21,7 @@
             position: relative;
             display: flex;
             margin: auto;
-            width: 60cqmin;
+            width: 50vh;
             /*1* let pointer event go trough pages of lower Z than .book */
             pointer-events: none;
             transform-style: preserve-3d;
