@@ -143,7 +143,7 @@
 /* Quy định khi thiết bị ở chế độ ngang */
 @media (orientation: landscape) {
     body {
-        transform: rotate(0deg);
+        transform: rotate(90deg);
         transform-origin: center;
         overflow: hidden;
     }
