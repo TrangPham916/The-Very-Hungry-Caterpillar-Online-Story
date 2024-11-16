@@ -149,7 +149,7 @@
     }
 }
 
-/* Quy định khi thiết bị ở chế độ dọc */
+/* /* Quy định khi thiết bị ở chế độ dọc */
 @media (orientation: portrait) {
     body {
         transform: rotate(90deg);
@@ -175,3 +175,4 @@
         z-index: 9999;
     }
 }
+ */
