@@ -11,3 +11,24 @@ const flipBook = (elBook) => {
 };
 
 document.querySelectorAll(".book").forEach(flipBook);
+
+
+// Kiểm tra orientation
+function checkOrientation() {
+    const isLandscape = window.matchMedia("(orientation: landscape)").matches;
+    const rotateMessage = document.querySelector(".rotate-message");
+
+    if (isLandscape) {
+        // Ẩn thông báo nếu ở chế độ ngang
+        if (rotateMessage) rotateMessage.style.display = "none";
+    } else {
+        // Hiển thị thông báo nếu ở chế độ dọc
+        if (rotateMessage) rotateMessage.style.display = "flex";
+    }
+}
+
+// Gọi kiểm tra ngay khi tải trang
+checkOrientation();
+
+// Gọi kiểm tra khi thay đổi hướng thiết bị
+window.addEventListener("orientationchange", checkOrientation);
