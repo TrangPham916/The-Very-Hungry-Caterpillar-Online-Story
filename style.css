@@ -150,7 +150,7 @@
 }
 
 /* /* Quy định khi thiết bị ở chế độ dọc */
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
     body {
         transform: rotate(90deg);
         transform-origin: center;
@@ -174,5 +174,5 @@
         text-align: center;
         z-index: 9999;
     }
-}
+} */
  */
