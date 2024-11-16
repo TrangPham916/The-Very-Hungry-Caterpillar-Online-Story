@@ -9,6 +9,7 @@
             /* or any other parent wrapper */
             margin: 0;
             display: flex;
+               width: 100vw;
             min-height: 100dvh;
 /*             perspective: 1000px; */
             font: 1em/1.4 "Poppins", sans-serif;
